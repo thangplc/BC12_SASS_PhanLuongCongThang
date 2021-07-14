@@ -1,13 +1,14 @@
 footer {
     width: 100%;
     position: relative;
-    background-image: url('../img/footer_background.jpg');
+    background-image: url('/img/footer_background.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
     .footer__main {
-        @include styleText($fs-10,$fw-2,
+        @include styleText($fs-10,
+        $fw-2,
         $color-main-3);
         width: $wid-4;
         margin: auto;
@@ -60,7 +61,6 @@ footer {
                     &:hover {
                         text-decoration: none;
                         color: rgba(255, 255, 255, 0.596);
-                        
                     }
                 }
             }
